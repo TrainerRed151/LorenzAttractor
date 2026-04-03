@@ -5,7 +5,7 @@ WINDOW 0 0 -72 Bottom 2
 WINDOW 3 0 72 Top 2
 SYMATTR Prefix X
 SYMATTR Value AD633
-SYMATTR ModelFile /Users/brian/Code/LorenzAttractor/ad633.cir
+SYMATTR ModelFile ad633.cir
 PIN -32 -48 LEFT 8
 PINATTR PinName 1
 PINATTR SpiceOrder 1
