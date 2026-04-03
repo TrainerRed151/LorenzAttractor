@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Parameters (from your PDF)
+# Parameters
 sigma = 10
 r = 28
 b = 8/3
