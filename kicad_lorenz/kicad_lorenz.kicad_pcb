@@ -4848,7 +4848,7 @@
 		(at 154.1 59 -90)
 		(descr "Soldered wire connection, for 3 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "J1"
+		(property "Reference" "DiffEq_F_Out"
 			(at 4.8 -2.35 90)
 			(layer "F.SilkS")
 			(uuid "dd2bff41-fa9f-498e-b6c9-7f1b4f723cef")
@@ -4859,7 +4859,7 @@
 				)
 			)
 		)
-		(property "Value" "X,-Y,Z"
+		(property "Value" "X    -Y    Z"
 			(at 4.8 2.35 90)
 			(layer "F.SilkS")
 			(uuid "cd07862a-6a41-432b-ac40-50511a9a2a8c")
@@ -6340,7 +6340,7 @@
 		(at 114.4 125.5)
 		(descr "Soldered wire connection, for 2 times 0.5 mm² wires, reinforced insulation, conductor diameter 0.9mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-xV 0.50 (https://www.staubli.com/content/dam/ecs/catalogs-brochures/TM/CAB-Main-11014119-en.pdf#page=11), bend radius 3 times outer diameter")
 		(tags "connector wire 0.5sqmm")
-		(property "Reference" "J2"
+		(property "Reference" "GND  3-5.5V"
 			(at 2.4 -2.35 0)
 			(layer "F.SilkS")
 			(uuid "d823edde-7d22-447f-bdb6-b8c5a160dc0b")
@@ -7868,6 +7868,18 @@
 		(at 69.5 64 0)
 		(layer "F.SilkS")
 		(uuid "93b9f77a-cef2-42cd-bd46-83b580be4151")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DIP Switch Layout\nZ:  Fast (2n)\n    Med\n    Slow\nY:  Fast\n    Med  (0.1u)\n    Slow\nX:  Fast\n    Med\n    Slow (0.47u)"
+		(at 144.5 96.9 0)
+		(layer "F.SilkS")
+		(uuid "b66dc2f8-446e-4d89-9bce-69cc12f9677d")
 		(effects
 			(font
 				(size 1 1)
