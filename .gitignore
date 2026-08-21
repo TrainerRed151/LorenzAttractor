@@ -207,9 +207,8 @@ marimo/_lsp/
 __marimo__/
 
 # KiCad
-kicad_lorenz/production/
+kicad_lorenz/production/backups/
 kicad_lorenz/~*
-kicad_lorenz/fabrication-toolkit-options.json
 kicad_lorenz/.history/
 kicad_lorenz/*.log
 
